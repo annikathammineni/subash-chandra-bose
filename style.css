@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding-top: 800px;
+
+}
+
+#welcome {
+    display: table;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(to bottom right, #ff7733, #ffffff, #6aae47);
+    height: 800px;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+#div1 {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center
+}
+
+#bose {
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.menu {
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    list-style: none;
+}
+
+.link {
+    float: left;
+
+    color: red;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+
+}
