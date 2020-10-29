@@ -35,19 +35,20 @@ body {
 
 .menu {
     z-index: 10;
-    position: absolute;
-    top: 10px;
-    right: 50px;
-    list-style: none;
+    position: fixed;
+    top: 0px;
+margin-top: 0px;
+    background:black;
+    width: 100%
 }
 
 .link {
-    float: left;
-
+display: inline;
+    font-size: 20px;
     color: red;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-left: 9px;
     padding-right: 9px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 
 }
